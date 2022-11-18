@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&family=Sono&family=Source+Sans+Pro&display=swap');
+
+ .card h3 {
+    color: darkblue;
+    
+}
+body {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    
+    
+    background-color: rgb(221, 219, 217);
+    max-width: 500px;
+    margin: auto;
+    padding: 0px 5px; 
+}
+.name {
+    color: black;
+    
+}
+.img{
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25); 
+    width: 200px;
+    height:  250px;
+    margin: auto;
+   
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 15px 20px;
+  font-family:inherit ;
+  
+}
+.btn:hover {
+    opacity: 0.8;
+}
+
+.card {
+border: 4 px solid black;
+border-radius: 10px;
+
+}
+.person {
+  background-color:rgb(216, 102, 27) ;  
+}
+.skills {
+    background-color: green;
+}
+
+.experience{
+    background-color: yellow;
+}
+.education{
+    background-color: aquamarine;
+}
+
+@media(max-width: 500px) {
+    .card ul, .name, .card h3, .form, .tabel {
+        text-align: center;
+        list-style: none;
+        padding-left: 0;
+        
+    }
+    .card li {
+        border-bottom: 1px solid black;
+        padding-bottom: 5px;
+        
+    }
+    .card  {
+        
+        padding-bottom: 2.5px;
+    }
+   
+}
+
+
+.tabel{
+    margin: 0;
+}
+.tabel ul li {
+   border-bottom: 1px solid #ccc;
+   list-style: none;
+   padding: 10px 0;
+   margin: 0;
+}
+.tabel ul{
+    margin: 0;
+    padding-left: 0;
+}
+.Box1 {
+    margin-bottom: 0;
+}
+.form h4 {
+    text-align: center;
+}
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+.form-row, .form-group{
+display: inline-block;
+margin-right: 0;
+
+}
+.form-row, .form-group:last-child{
+    margin-right: 0;
+}
+.form-group{
+    display: block;
+    font-size: 14px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(43, 34, 34);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
